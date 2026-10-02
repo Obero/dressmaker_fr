@@ -1,0 +1,35 @@
+# Liste blanche : tout est ignoré sauf ce qui est nommé ci-dessous.
+# Raison : le dossier de travail contient les textes anglais du jeu (dossier local/ :
+# exports, scripts lisibles EN + FR, lots, guide interne), qui appartiennent aux
+# développeurs et ne doivent JAMAIS être publiés. Ne rien ajouter ici sans vérifier
+# l'absence de texte anglais du jeu et d'information personnelle.
+*
+
+# Racine
+!.gitignore
+!README.md
+!CONTRIBUTING.md
+!AGENTS.md
+!LICENSE
+!LICENCE-TRADUCTION.md
+
+# Guide de style public (sans citation du jeu)
+!docs/
+docs/*
+!docs/guide_de_style.md
+
+# Base de traduction (texte français uniquement)
+!translation/
+translation/*
+!translation/translations_fr.json
+
+# Outils
+!tools/
+tools/*
+!tools/*.py
+
+# Plugin (fr.tsv est généré par tools/export_fr_table.py, bin/ et obj/ par la compilation)
+!plugin/
+plugin/*
+!plugin/Plugin.cs
+!plugin/DressmakerFR.csproj

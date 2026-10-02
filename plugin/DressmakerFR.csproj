@@ -1,0 +1,74 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>DressmakerFR</AssemblyName>
+    <RootNamespace>DressmakerFR</RootNamespace>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+    <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+    <!-- Aucun chemin de la machine de compilation dans la DLL publiée -->
+    <DebugType>none</DebugType>
+    <Deterministic>true</Deterministic>
+    <PathMap>$(MSBuildProjectDirectory)=.</PathMap>
+
+    <!-- Dossier du jeu (celui qui contient Dressmaker.exe), à fournir au choix :
+         - en option : dotnet build -c Release -p:GameDir="<dossier du jeu>"
+         - par la variable d'environnement DRESSMAKER_DIR
+         - dans un fichier local plugin/Directory.Build.props, jamais publié :
+           <Project><PropertyGroup><GameDir>dossier du jeu</GameDir></PropertyGroup></Project> -->
+    <GameDir Condition="'$(GameDir)' == ''">$(DRESSMAKER_DIR)</GameDir>
+    <Managed>$(GameDir)\Dressmaker_Data\Managed</Managed>
+    <PluginOut>$(GameDir)\BepInEx\plugins\DressmakerFR</PluginOut>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="BepInEx">
+      <HintPath>$(GameDir)\BepInEx\core\BepInEx.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>$(Managed)\UnityEngine.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>$(Managed)\UnityEngine.CoreModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>$(Managed)\UnityEngine.InputLegacyModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Unity.Localization">
+      <HintPath>$(Managed)\Unity.Localization.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Unity.ResourceManager">
+      <HintPath>$(Managed)\Unity.ResourceManager.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Unity.Addressables">
+      <HintPath>$(Managed)\Unity.Addressables.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+  <!-- Arrêt explicite si le dossier du jeu n'est pas fourni ou n'est pas le bon -->
+  <Target Name="CheckGameDir" BeforeTargets="ResolveAssemblyReferences">
+    <Error Condition="'$(GameDir)' == ''"
+           Text="Dossier du jeu non défini : utiliser -p:GameDir=&quot;dossier du jeu&quot;, la variable DRESSMAKER_DIR ou plugin/Directory.Build.props (voir ce fichier .csproj)." />
+    <Error Condition="'$(GameDir)' != '' And !Exists('$(GameDir)\BepInEx\core\BepInEx.dll')"
+           Text="BepInEx introuvable dans « $(GameDir) » : vérifier le dossier du jeu et l'installation de BepInEx 5." />
+  </Target>
+
+  <!-- Copie automatique du plugin dans le jeu après compilation -->
+  <Target Name="CopyToGame" AfterTargets="Build" Condition="Exists('$(GameDir)\BepInEx')">
+    <MakeDir Directories="$(PluginOut)" />
+    <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(PluginOut)" />
+    <Copy SourceFiles="$(MSBuildProjectDirectory)\fr.tsv" DestinationFolder="$(PluginOut)"
+          Condition="Exists('$(MSBuildProjectDirectory)\fr.tsv')" />
+    <Message Importance="high" Text="Plugin copié dans $(PluginOut)" />
+  </Target>
+
+</Project>
