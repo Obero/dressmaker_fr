@@ -11,6 +11,7 @@ Pour désigner un passage, décrivez la scène et citez le **texte français** a
 
 Ouvrez une *Issue* en indiquant :
 
+- **la version du jeu**, affichée en bas à droite de l'écran titre (par exemple `410.44874e6`) ;
 - **où** : la cliente, la quête ou l'écran (par exemple « Dorothy, quête du labyrinthe, après la robe ratée » ou « écran de vente ») ;
 - **quoi** : le texte français affiché, et ce qui ne va pas (faute, contresens, phrase qui sonne faux, texte qui déborde, texte resté en anglais, caractère manquant…) ;
 - si possible, **une capture d'écran** et votre proposition de correction.

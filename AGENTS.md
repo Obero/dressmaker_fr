@@ -70,6 +70,8 @@ Le guide public `docs/guide_de_style.md` fait référence (voix des personnages,
 
 ## État (version 1.0.0)
 
+- Version du jeu traduite : `410.44874e6` (affichée en bas à droite de l'écran titre, datée du 24/09/2026 ; build Steam 25508059). Après une mise à jour du jeu : réextraire l'anglais, lancer `check_translations.py` (chaînes nouvelles et « obsolètes » = anglais modifié), traduire, puis mettre à jour cette ligne, le README et le LISEZMOI de la release.
+
 - Traduits : interface, tutoriel, contenu (noms), tous les dialogues des personnages, les chroniques, les résumés de quête. Vérifié en jeu sur les écrans et passages délicats.
 - Volontairement non traduits : le contenu de l'ancienne démo (quêtes `*Demo`, `ExampleQuest`, `Quest0`), les textes de remplissage des développeurs (« Stub… », « Unused »), les images.
 - `check_translations.py` laisse une vingtaine d'avertissements de longueur, revus et jugés sûrs.

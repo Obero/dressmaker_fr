@@ -5,6 +5,8 @@ Projet de fan, sans lien avec les développeurs ni l'éditeur. Il faut posséder
 
 **Télécharger :** voir la page [Releases](../../releases) (archive `DressmakerFR-1.0.0.zip`, instructions d'installation dans `LISEZMOI.txt`).
 
+**Version du jeu prise en charge :** `410.44874e6` (affichée en bas à droite de l'écran titre, datée du 24/09/2026 ; build Steam 25508059). Si le jeu a été mis à jour depuis, certains textes nouveaux ou modifiés peuvent s'afficher en anglais en attendant une mise à jour du patch.
+
 ## Ce qui est traduit
 
 - L'interface, le tutoriel et tous les noms (tissus, patrons, accessoires, quêtes).
@@ -32,7 +34,7 @@ Toutes les répliques n'ont pas été relues une à une par un humain : si une p
 Toute aide est bienvenue : voir le [guide de contribution](CONTRIBUTING.md).
 
 
-Ouvrir une *Issue* en précisant la scène (cliente, quête ou écran), le texte affiché et, si possible, une capture d'écran. Pour un problème technique, joindre `<dossier du jeu>\BepInEx\LogOutput.log`.
+Ouvrir une *Issue* en précisant la version du jeu (en bas à droite de l'écran titre), la scène (cliente, quête ou écran), le texte affiché et, si possible, une capture d'écran. Pour un problème technique, joindre `<dossier du jeu>\BepInEx\LogOutput.log`.
 
 ## Contenu du dépôt
 
