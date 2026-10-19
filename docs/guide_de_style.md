@@ -77,6 +77,9 @@ Principes (chaque cas est décidé un par un) :
 | commission | commande |
 | client | cliente |
 | off the rack dress | robe de prêt-à-porter (court : prêt-à-porter) |
+| sell as off-rack (bouton) | mettre en rayon |
+| reward (commande) | récompense |
+| options : audio / gameplay / graphics | son / jeu / vidéo ; « bloom » conservé |
 | fabric / swatch | tissu / échantillon |
 | haberdashery | mercerie |
 | pattern / pattern piece | patron / pièce de patron |

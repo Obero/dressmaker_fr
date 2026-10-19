@@ -25,7 +25,7 @@ namespace DressmakerFR
     {
         public const string Guid = "fr.dressmaker.localization";
         public const string PluginName = "Dressmaker FR";
-        public const string Version = "1.0.0";
+        public const string Version = "1.1.0";
         public const string Code = "fr";
 
         internal static ManualLogSource Log;

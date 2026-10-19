@@ -52,8 +52,8 @@
  "1016171696158": {
   "collection": "Tutorial",
   "key": "Cutting/DiscardUsed",
-  "fr": "Pour faire de la place à d’autres pièces, vous pouvez jeter la partie utilisée du tissu avec le <color=#0e85d9>bouton Jeter le tissu</color>, ou en tenant les <color=#0e85d9>ciseaux</color> au bord supérieur ou inférieur du rouleau, puis en cliquant.",
-  "src": "4b1f40d8eb",
+  "fr": "Pour faire de la place à d’autres pièces, vous pouvez jeter la partie utilisée du tissu avec le <color=#0e85d9>bouton Jeter le tissu</color>.",
+  "src": "9803fb0655",
   "status": "draft"
  },
  "1016171696151": {
@@ -1573,8 +1573,8 @@
  "1457183857295378": {
   "collection": "UI",
   "key": "Requirement/Budget",
-  "fr": "Budget : <sprite=0>{0}",
-  "src": "2537196b08",
+  "fr": "Récompense : <sprite=0>{0}",
+  "src": "fa218e0569",
   "status": "draft"
  },
  "1457183857295368": {
@@ -1778,8 +1778,8 @@
  "6234992911826944": {
   "collection": "UI",
   "key": "SellDress",
-  "fr": "Vendre",
-  "src": "fa3cf2ad51",
+  "fr": "Mettre en rayon",
+  "src": "31ff0de188",
   "status": "draft"
  },
  "58413693255680": {
@@ -11869,8 +11869,9 @@
   "collection": "Content",
   "key": "Fabric/CottonDiamondPrint/Name",
   "fr": "Coton imprimé losanges verts",
-  "src": "cdbb141008",
-  "status": "draft"
+  "src": "108c5d8d46",
+  "status": "draft",
+  "note": "Anglais corrigé dans la version 447.804bb8a du jeu (coquille ou ponctuation) ; français inchangé."
  },
  "67952236806164": {
   "collection": "Content",
@@ -13248,8 +13249,9 @@
   "collection": "Content",
   "key": "Fabric/Shimmer Silk Ichor/Name",
   "fr": "Soie chatoyante ichor",
-  "src": "6635ba4bf7",
-  "status": "draft"
+  "src": "d5e04aabbd",
+  "status": "draft",
+  "note": "Anglais corrigé dans la version 447.804bb8a du jeu (coquille ou ponctuation) ; français inchangé."
  },
  "25381225810800702": {
   "collection": "Content",
@@ -23158,8 +23160,9 @@
   "collection": "Dialogue",
   "key": "line:0b9fe96",
   "fr": "Berty dit que votre conduite a été satisfaisante, mais il aimerait inscrire à l’ordre du jour une motion d’expulsion du chat.",
-  "src": "f1dbadde57",
-  "status": "draft"
+  "src": "3208484ac0",
+  "status": "draft",
+  "note": "Anglais corrigé dans la version 447.804bb8a du jeu (coquille ou ponctuation) ; français inchangé."
  },
  "7392685321982112": {
   "collection": "Dialogue",
@@ -27625,8 +27628,9 @@
   "collection": "Dialogue",
   "key": "line:08333dc",
   "fr": "Quand Hassan m’a demandé de l’épouser, une évidence m’est soudain apparue \\: quoi que j’accomplisse, les gens diront que j’ai triché.",
-  "src": "5ec15acf8b",
-  "status": "draft"
+  "src": "f27196bc98",
+  "status": "draft",
+  "note": "Anglais corrigé dans la version 447.804bb8a du jeu (coquille ou ponctuation) ; français inchangé."
  },
  "7392685326176421": {
   "collection": "Dialogue",
@@ -34171,8 +34175,9 @@
   "collection": "Dialogue",
   "key": "line:0310d6b",
   "fr": "J’aimerais qu’elle reflète mes espoirs pour le mariage \\: qu’elle soit audacieuse et joyeuse. Elle doit être recherchée, habillée et romantique, et elle doit porter des fleurs, pour Priya. Je peux offrir {0}.",
-  "src": "79ed7d193f",
-  "status": "draft"
+  "src": "2ec3a00d92",
+  "status": "draft",
+  "note": "Anglais corrigé dans la version 447.804bb8a du jeu (coquille ou ponctuation) ; français inchangé."
  },
  "7392685330371044": {
   "collection": "Dialogue",
@@ -37468,8 +37473,9 @@
   "collection": "Dialogue",
   "key": "line:06d9e82",
   "fr": "Miss Prudence semblait néanmoins d’excellente humeur. Elle fit maintes allusions radieuses à son mariage prochain, apparemment inévitable, et au nombre de méridiennes que le duc pourrait posséder selon elle. (Ses estimations dépassent les trente-quatre.)",
-  "src": "b52a11aedf",
-  "status": "draft"
+  "src": "040d89bf69",
+  "status": "draft",
+  "note": "Anglais corrigé dans la version 447.804bb8a du jeu (coquille ou ponctuation) ; français inchangé."
  },
  "7392685317787720": {
   "collection": "Dialogue",
@@ -37784,6 +37790,190 @@
   "key": "line:RepeatingQuest_Summary",
   "fr": "Une robe de prêt-à-porter.",
   "src": "18c0df4618",
+  "status": "draft"
+ },
+ "41330715622846464": {
+  "collection": "UI",
+  "key": "AudioTab",
+  "fr": "Son",
+  "src": "acdac205f5",
+  "status": "draft"
+ },
+ "41330588229251072": {
+  "collection": "UI",
+  "key": "GameplayTab",
+  "fr": "Jeu",
+  "src": "e04c712a30",
+  "status": "draft"
+ },
+ "41330658513203200": {
+  "collection": "UI",
+  "key": "GraphicsTab",
+  "fr": "Vidéo",
+  "src": "ab255c27ae",
+  "status": "draft"
+ },
+ "41337045322510336": {
+  "collection": "UI",
+  "key": "Bloom",
+  "fr": "Bloom",
+  "src": "3ef84d550f",
+  "status": "draft"
+ },
+ "40960308741652480": {
+  "collection": "UI",
+  "key": "Outlines",
+  "fr": "Contours",
+  "src": "71d42a0624",
+  "status": "draft"
+ },
+ "40957591591829504": {
+  "collection": "UI",
+  "key": "LessAnimation",
+  "fr": "Moins d’animations",
+  "src": "a172360921",
+  "status": "draft"
+ },
+ "40960419022487552": {
+  "collection": "UI",
+  "key": "FastTrim",
+  "fr": "Pose rapide des galons",
+  "src": "d16ff34e29",
+  "status": "draft"
+ },
+ "41383281541758976": {
+  "collection": "UI",
+  "key": "DeleteDressConfirmation",
+  "fr": "Cette robe sera définitivement supprimée de vos archives. Voulez-vous vraiment continuer ?",
+  "src": "a4df0893bf",
+  "status": "draft"
+ },
+ "41740693060554752": {
+  "collection": "UI",
+  "key": "SellConfirm",
+  "fr": "Vendre",
+  "src": "fa3cf2ad51",
+  "status": "draft"
+ },
+ "42111338724442113": {
+  "collection": "UI",
+  "key": "Tooltips/DiscardFabric",
+  "fr": "Jeter le tissu",
+  "src": "146616b1f9",
+  "status": "draft"
+ },
+ "42111338724442115": {
+  "collection": "UI",
+  "key": "Tooltips/GrabAll",
+  "fr": "Ranger toutes les pièces",
+  "src": "318712c824",
+  "status": "draft",
+  "note": "Raccourci par précaution (longueur), version 447.804bb8a du jeu."
+ },
+ "42111338724442112": {
+  "collection": "UI",
+  "key": "Tooltips/Scissors",
+  "fr": "Ciseaux",
+  "src": "faf4c3ea4e",
+  "status": "draft"
+ },
+ "42111338724442114": {
+  "collection": "UI",
+  "key": "Tooltips/SeamAllowance",
+  "fr": "Marges de couture",
+  "src": "0ea953989a",
+  "status": "draft",
+  "note": "Raccourci par précaution (longueur), version 447.804bb8a du jeu."
+ },
+ "43188215582920704": {
+  "collection": "Content",
+  "key": "ControlHint/NextPage",
+  "fr": "Page suivante",
+  "src": "5e92f5f19e",
+  "status": "draft"
+ },
+ "43188215608086528": {
+  "collection": "Content",
+  "key": "ControlHint/PrevPage",
+  "fr": "Page précédente",
+  "src": "27e16676ef",
+  "status": "draft"
+ },
+ "40645156016209920": {
+  "collection": "Content",
+  "key": "ControlHint/PanCameraCuttingRoom",
+  "fr": "Panoramique",
+  "src": "fddb983a9a",
+  "status": "draft"
+ },
+ "42112863878234112": {
+  "collection": "Content",
+  "key": "ControlHint/OrbitCamera",
+  "fr": "Orbite",
+  "src": "1f9b0fce7b",
+  "status": "draft"
+ },
+ "42112863882428416": {
+  "collection": "Content",
+  "key": "ControlHint/RotateMannequin",
+  "fr": "Tourner le mannequin",
+  "src": "a1c642606f",
+  "status": "draft"
+ },
+ "41616726733737984": {
+  "collection": "Content",
+  "key": "Panel/BodiceButtonPlacket1",
+  "fr": "Corsage boutonnage 1",
+  "src": "015b05f628",
+  "status": "draft"
+ },
+ "41616726733737985": {
+  "collection": "Content",
+  "key": "Panel/BodiceButtonPlacket2",
+  "fr": "Corsage boutonnage 2",
+  "src": "a967192470",
+  "status": "draft"
+ },
+ "41616726687600640": {
+  "collection": "Content",
+  "key": "Panel/BodiceCupTopLeft",
+  "fr": "Corsage bonnet haut gauche",
+  "src": "cecf6dd5b6",
+  "status": "draft"
+ },
+ "41616726729543680": {
+  "collection": "Content",
+  "key": "Panel/BodiceCupTopRight",
+  "fr": "Corsage bonnet haut droit",
+  "src": "4f37b263fb",
+  "status": "draft"
+ },
+ "41616726733737986": {
+  "collection": "Content",
+  "key": "Panel/BodiceFrontButtonPlacket1",
+  "fr": "Corsage devant boutonnage 1",
+  "src": "f2cd23514f",
+  "status": "draft"
+ },
+ "42112873286057984": {
+  "collection": "Content",
+  "key": "Panel/SkirtInsertFrontRight",
+  "fr": "Jupe insert devant droit",
+  "src": "fda18ce062",
+  "status": "draft"
+ },
+ "28632190932729856": {
+  "collection": "Tutorial",
+  "key": "NonCom/Paging",
+  "fr": "Vous pouvez parcourir le carnet en <style=c1>tournant les pages</style> vers l’avant ou vers l’arrière.",
+  "src": "c45b5ae91e",
+  "status": "draft"
+ },
+ "28632190920146944": {
+  "collection": "Tutorial",
+  "key": "Sketch/ChooseComponent",
+  "fr": "Vous pouvez aussi cliquer sur le <style=c1>nom de l’élément</style> pour voir les options disponibles.",
+  "src": "a2a395cfa8",
   "status": "draft"
  }
 }

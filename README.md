@@ -5,7 +5,7 @@ Projet de fan, sans lien avec les développeurs ni l'éditeur. Il faut posséder
 
 **Télécharger :** voir la page [Releases](../../releases) (archive `DressmakerFR-1.0.0.zip`, instructions d'installation dans `LISEZMOI.txt`).
 
-**Version du jeu prise en charge :** `410.44874e6` (affichée en bas à droite de l'écran titre, datée du 24/09/2026 ; build Steam 25508059). Si le jeu a été mis à jour depuis, certains textes nouveaux ou modifiés peuvent s'afficher en anglais en attendant une mise à jour du patch.
+**Version du jeu prise en charge :** `447.804bb8a` (affichée en bas à droite de l'écran titre, datée du 19/10/2026 ; build Steam 26043449). Si le jeu a été mis à jour depuis, certains textes nouveaux ou modifiés peuvent s'afficher en anglais en attendant une mise à jour du patch.
 
 ## Ce qui est traduit
 
